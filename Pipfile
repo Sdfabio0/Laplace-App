@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 matplotlib = "*"
+names = "*"
+networkx = "*"
+nltk = "*"
+spacy = "*"
 
 [dev-packages]
 
