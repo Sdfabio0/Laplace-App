@@ -9,6 +9,7 @@ names = "*"
 networkx = "*"
 nltk = "*"
 spacy = "*"
+pymupdf = "*"
 
 [dev-packages]
 
