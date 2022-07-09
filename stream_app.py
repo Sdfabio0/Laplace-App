@@ -2,6 +2,7 @@ import os
 import json
 import matplotlib.pyplot as plt
 import utils
+import spacy
 import spacy_merge_phrases
 import constraint_P
 import streamlit as st
