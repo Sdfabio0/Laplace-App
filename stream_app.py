@@ -8,6 +8,11 @@ import constraint_P
 import streamlit as st
 import base64
 import plotly.graph_objects as go
+import en_core_web_sm
+
+os.system('python3 -m spacy download en_core_web_sm')
+
+nlp = spacy.load("en_core_web_sm")
 
 path = '/home/ff/Documents/UDepLambdaaIrudi'
 
