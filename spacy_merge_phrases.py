@@ -3,7 +3,7 @@ import nltk
 import os
 import en_core_web_sm
 
-nlp = en_core_web_sm.load("en_core_web_sm")
+nlp = en_core_web_sm.load()
 
 def merge_phrases(doc):
     with doc.retokenize() as retokenizer:
