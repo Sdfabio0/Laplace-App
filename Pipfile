@@ -13,9 +13,9 @@ pymupdf = "*"
 scikit-learn = "*"
 ortools = "*"
 plotly = "*"
+default-jre
 xlsxwriter = "*"
 click="==8.1.0"
-default-jre
 
 [dev-packages]
 
