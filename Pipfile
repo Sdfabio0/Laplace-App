@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 matplotlib = "*"
 names = "*"
+en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0.tar.gz"}
 networkx = "*"
 nltk = "*"
 pymupdf = "*"
@@ -15,7 +16,6 @@ plotly = "*"
 xlsxwriter = "*"
 click="==8.1.0"
 default-jre
-en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0.tar.gz"}
 
 [dev-packages]
 
