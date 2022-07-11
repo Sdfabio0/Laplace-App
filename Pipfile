@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-typer = "==0.4.1"
+typer = "*"
 en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz"}
 matplotlib = "*"
 names = "*"
@@ -22,4 +22,4 @@ spacy = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.9.7"
+python_version = "3.7.2"
