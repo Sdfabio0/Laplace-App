@@ -55,10 +55,8 @@ def filter_CP(rules, df_table, sent=None, test=0):
         with open('logic_rules_test.txt','r') as f:
             for line in f:
             	rules_all.append(line)
-        f.close()
-    if rules:
-    	rules_all = rules	
-    rules_npy = rules_all
+        f.close()	
+    rules_npy = rules
     filtered_table = constraint_P.filter_database(rules_npy,df_table)
     return filtered_table
     
