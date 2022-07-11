@@ -4,8 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
-en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz"}
 matplotlib = "*"
 names = "*"
 networkx = "*"
@@ -17,8 +15,7 @@ plotly = "*"
 click="==8.1.0"
 Exit="*"
 
-
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.7"
