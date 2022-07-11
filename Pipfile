@@ -16,8 +16,10 @@ plotly = "*"
 click="8.0.4"
 Exit="*"
 spacy = "*"
+typer = "*"
+
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.9.7"
