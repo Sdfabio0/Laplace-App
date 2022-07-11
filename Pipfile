@@ -16,10 +16,9 @@ ortools = "*"
 plotly = "*"
 click="==8.1.0"
 Exit="*"
-spacy = "*"
 
 
 [dev-packages]
 
 [requires]
-python_version = "3.7.2"
+python_version = "3.9"
