@@ -13,8 +13,6 @@ scikit-learn = "*"
 ortools = "*"
 plotly = "*"
 en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz"}
-click="==8.0.4"
-Exit="*"
 
 [dev-packages]
 
