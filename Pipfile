@@ -15,7 +15,7 @@ ortools = "*"
 plotly = "*"
 default-jre
 xlsxwriter = "*"
-click="==8.1.0"
+
 
 [dev-packages]
 
