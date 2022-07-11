@@ -9,7 +9,7 @@ import streamlit as st
 import base64
 import plotly.graph_objects as go
 
-nlp = en_core_web_sm.load("en_core_web_sm")
+nlp = en_core_web_sm.load()
 
 path = '/home/ff/Documents/UDepLambdaaIrudi'
 
