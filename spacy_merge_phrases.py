@@ -1,7 +1,7 @@
 import spacy
 import nltk
 import os
-import en_core_web_sm
+#import en_core_web_sm
 
 os.system('python3 -m spacy download en_core_web_sm')
 
